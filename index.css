@@ -1,0 +1,169 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.parent-container {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 1070px;
+  margin: 0 auto;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.container-left {
+  padding: 40px;
+}
+
+.title {
+  text-align: center;
+  color: #00a1d5;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.description {
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+
+.payments-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.payment {
+  display: flex;
+  flex-direction: column;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 30px;
+  font-style: normal;
+  color: #00a1d5;
+  letter-spacing: -0.005em;
+  font-feature-settings: "pnum" on, "lnum" on;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.price-note {
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000000;
+}
+
+.price-note span {
+  position: absolute;
+  font-size: 8px;
+}
+
+.car-model {
+  margin-bottom: 40px;
+}
+
+.details-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.details {
+}
+
+.details-title {
+}
+
+.details-title span {
+  position: absolute;
+  font-size: 8px;
+}
+
+.details-value {
+  font-weight: bold;
+}
+
+.risks-title {
+  text-align: center;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -0.005em;
+  color: #00a1d5;
+  margin-bottom: 60px;
+}
+
+.icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 420px;
+}
+
+.icon-container {
+  text-align: center;
+  width: 33.333%;
+  margin-bottom: 50px;
+}
+
+.icon-container img {
+  width: 60px;
+  height: 60px;
+}
+
+.notes {
+  margin-top: 50px;
+}
+
+.note {
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+
+.note span {
+  font-weight: bold;
+}
+
+.container-right {
+  position: relative;
+}
+
+.container-right-image {
+  height: 100%;
+  width: 400px;
+  object-fit: cover;
+}
+
+.container-right-logo {
+  position: absolute;
+  width: 250px;
+  height: 70px;
+  z-index: 1000;
+  left: 75px;
+  bottom: 150px;
+}
+
+.container-right-number {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  z-index: 1000;
+  left: 110px;
+  bottom: 50px;
+}
